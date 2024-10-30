@@ -1,6 +1,8 @@
 # Installing packages
 install.packages('ggplot2')
 
+print('Hello World')
+
 # Import packages
 library(ggplot2)
 
@@ -9,7 +11,7 @@ getwd()
 
 # Set working directory to use relative path
 # Replace the path below with your local path
-setwd('/Users/jparkgeo/Documents/GitHub/KHU_R_Programming/Week9')
+setwd('C:/Users/USER/Documents/GitHub/KHU_R_Programming/Week9')
 
 # Read CSV file
 seoul.temp <- read.csv('./data/seoul_temp_precip.csv')
